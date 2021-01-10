@@ -1,5 +1,5 @@
 # nodejs-web-server
-A web server template written with Node.js with a simple web front-end template. The web server can work as a reverse proxy when there are backend services.
+A web server template written with Node.js with a simple web front-end template. The web server can work as a reverse proxy when there are backend services. (The bootstrap packages are included for easier front-end development.)
 
 How to start up the server:
 
@@ -11,5 +11,4 @@ How to start up the server:
 4. Access `http://localhost:49152` in your browser.
 
 Pressing the GET button or the POST button will send a GET/POST request to the web server and shows the results on the page.
-[front end](docs/example.PNG)
-
+![front end](docs/example.PNG)
