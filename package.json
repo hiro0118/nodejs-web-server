@@ -1,7 +1,7 @@
 {
-    "name": "productivity_share_bff",
+    "name": "nodejs_webserver",
     "version": "1.0.0",
-    "description": "ProductivityShare BFF",
+    "description": "web server template",
     "author": "Hiroshi Fuji",
     "main": "server.js",
     "scripts": {
