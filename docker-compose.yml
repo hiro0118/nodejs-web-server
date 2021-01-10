@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+  nodejs-web-server:
+    build: ./
+    ports:
+      - "49152:49152"
+
+# networks:
+#   default:
+#     external:
+#       name: putbackendnetworkhere

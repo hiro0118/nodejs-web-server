@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Hiroshi Fuji">
+    <title>Productivity Share</title>
+
+    <link href="bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="js/frontend.js"></script>
+</head>
+
+<body>
+
+    <h1 id="title"></h1>
+
+    <h2>Image</h2>
+    <img src="img/cactus.jpg" height="150" alt="test img">
+
+    <h2>GET TEST</h2>
+    <button type="button" class="btn btn-primary mb-3" onclick="onGet()">GET</button>
+    <div id="getresult"></div>
+
+    <h2>POST TEST</h2>
+    <button type="button" class="btn btn-primary mb-3" onclick="onPost()">POST</button>
+    <div id="postresult"></div>
+
+    <!-- Functions run on start-up -->
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById("title").innerText = "Title! (added on load)";
+        }
+    </script>
+
+</body>
+
+</html>
